@@ -1,10 +1,10 @@
 cask "thingsdiary" do
-  version :latest
-  sha256 :no_check
+  version "1.0.0"
+  sha256 "f025ca246df99ce74a0dfd7fbbc3978243e197552ddebb074e040478a1f42a01"
 
-  url "https://github.com/thingsdiary/thingsdiary-mac/releases/latest/download/thingsdiary.dmg"
-  name "ThingsDiary"
-  desc "Desktop client for ThingsDiary"
+  url "https://github.com/thingsdiary/thingsdiary-mac/releases/download/v#{version}/thingsdiary.dmg"
+  name "thingsdiary"
+  desc "Desktop client for thingsdiary.io"
   homepage "https://github.com/thingsdiary/thingsdiary-mac"
 
   depends_on arch: :arm64
