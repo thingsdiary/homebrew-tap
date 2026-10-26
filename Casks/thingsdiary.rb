@@ -1,6 +1,6 @@
 cask "thingsdiary" do
-  version "1.6.5"
-  sha256 "476f87490220a386120854ee1673c48dd556df3a6dc81c28038f086d4bbeb317"
+  version "1.7.0"
+  sha256 "73a8d1688fce301976b594843283c89a9b6130446d9b0d875aecee66f14f8279"
 
   url "https://github.com/thingsdiary/thingsdiary-mac/releases/download/v#{version}/thingsdiary.dmg"
   name "thingsdiary"
